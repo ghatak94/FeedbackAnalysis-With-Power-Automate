@@ -14,13 +14,12 @@ Triggered whenever a new feedback entry is added to the Feedback List in SharePo
 
 2. Predict (AI Builder – Sentiment Analysis)
 Input: Feedback text from SharePoint list
-
 Output: Sentiment result (Positive, Negative, Neutral) and confidence scores
 
-2. Update Item (SharePoint)
+3. Update Item (SharePoint)
 Updates the SharePoint list item with sentiment analysis results (e.g., Sentiment column updated with “Positive/Negative/Neutral”).
 
-3. Condition (Control)
+4. Condition (Control)
 - Checks if the detected sentiment is Positive/Neutral.
 a. Send an email (V2)- Sends a thank-you or acknowledgment email
 - If Negative
